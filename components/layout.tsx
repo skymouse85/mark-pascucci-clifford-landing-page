@@ -1,13 +1,19 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from './layout.module.css'
+import utilStyles from '../styles/utils.module.css'
+import Link from 'next/link'
 
 const name = 'Mark Pascucci-Clifford';
 export const siteTitle = 'Mark Pascucci-Clifford';
 
-export default function Layout({ children, home }) {
+export default function Layout({ 
+    children, 
+    home 
+} : {
+    children: React.ReactNode
+    home? : boolean
+}) {
     return (
       <div className={styles.container}>
         <Head>
