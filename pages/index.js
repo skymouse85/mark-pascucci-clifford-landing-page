@@ -25,7 +25,20 @@ export default function Home({allPostsData}) {
       <p>Hello! My name is Mark Pascucci-Clifford. I'm an aspiring web developer, vibraphonist, and composer.</p>
         
       </section>
-     <Link href="/blog" className={utilStyles.headingLg} >Blog</Link>
+        <div>
+          <Link href='/projects' className={utilStyles.headingLg}>Projects</Link>
+        </div>
+        <div className={utilStyles.headingLg}>
+        <a
+      href="/Mark_Pascucci_Clifford_Resume.pdf"
+      alt="alt text"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Resume</a>
+        </div>
+        <div>
+          <Link href="/blog" className={utilStyles.headingLg} >Blog</Link>
+        </div>
     </Layout>
   );
 }
