@@ -16,6 +16,12 @@ export default function Projects() {
                     <p>A personal music website built using Next.JS</p>
                  </div>
                  <div>
+                    <a href='https://quantitymag.com/'>
+                        Quantity Magazine
+                    </a>
+                    <p>An online zine dedicated to the practice of making art</p>
+                 </div>
+                 <div>
                     <a href='https://github.com/skymouse85/scalr'>
                         Scalr
                     </a>
