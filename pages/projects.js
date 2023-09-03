@@ -22,7 +22,7 @@ export default function Projects() {
                     <p>An online zine dedicated to the practice of making art</p>
                  </div>
                  <div>
-                    <a href='https://github.com/skymouse85/scalr'>
+                    <a href='https://skymouse85.github.io/scalr/src/index.html'>
                         Scalr
                     </a>
                     <p>A website that takes a chord symbol and returns a list of viable scales that can be used to improvise over the given chord.</p>
